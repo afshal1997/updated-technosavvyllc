@@ -1,0 +1,41 @@
+# Pagination - Desktop
+--------------------------------------------------------------*/
+
+ul.article-pagination {
+	float: left;
+}
+ul.article-pagination > li:first-child {
+	padding-left: 0 !important;
+}
+ul.article-pagination > li {
+	display: inline-block !important;
+	background-image: none !important;
+	padding-left: 10px !important;
+}
+ul.article-pagination > li > a {
+	background-color: transparent;
+	border: 1px solid #000;
+	border-radius: 0px;
+	display: block;
+	font-weight: bold;
+	padding: 3px 10px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+ul.article-pagination > li > a:hover {
+	background-color: #000 !important;
+	border: 1px solid #000 !important;
+	color: #FFFFFF;
+}
+ul.article-pagination > li > a.pagination-active {
+	background-color: #000 !important;
+	border: 1px solid #000 !important;
+	color: #ffffff !important;
+	text-decoration: none !important;
+}
+
+#main-text-body ol, ol.list-items {
+    padding-left: 15px;
+}

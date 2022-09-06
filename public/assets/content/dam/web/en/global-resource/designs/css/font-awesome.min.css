@@ -1,0 +1,868 @@
+
+<!doctype html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact Us</title>
+<meta name="robots" content="noindex, nofollow">
+<link href="/content/dam/infosys-web/en/global-resource/designs/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="/content/dam/infosys-web/en/navigate-your-next/design/css/style.css" rel="stylesheet">
+
+<!--<link href="/Style Library/microsites/css/bootstrap.css" type="text/css" rel="stylesheet" />-->
+
+<link href="/content/dam/infosys-web/en/navigate-your-next/design/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+<!--Adobe-->
+<script type="text/javascript" src="../js/digitaldata.js"></script>
+<script src="../../../../../../../../assets.adobedtm.com/e1ecc4eee66c75c025bf95b71286904eb5f5708b/satelliteLib-1f4310b687525c365f31cac03791ca0d1bc3ad36.js"></script>
+<style>
+#demandbase-autocomplete .ui-widget .ui-widget {
+	font-size: 0.6em !important;
+}
+#thankyou {
+	text-align: center;
+}
+.field-bg {
+	margin-bottom: 45px;
+	position: relative;
+	width: 100%;
+}
+.field-bg input {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: currentcolor currentcolor #7E7E7E;
+	border-image: none;
+	border-style: none none solid;
+	border-width: medium medium 2px;
+	display: block;
+	font-size: 20px;
+	padding: 10px 0;
+	width: 100%;
+	background-color: transparent;
+}
+.submit-btn {
+	font-size: 16px;
+	background-color: #DF9926;
+	border: 1px solid #DF9926;
+	color: #fff;
+	font-weight: 900;
+	letter-spacing: 1px;
+	float: left;
+	padding: 18px 50px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out 0s;
+	cursor: pointer;
+}
+.submit-btn img {
+	vertical-align: middle;
+}
+.download-report {
+	background-color: #DF9926;
+	border: 1px solid #DF9926;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	padding: 15px;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out 0s;
+	text-transform: uppercase;
+}
+.download-report:hover {
+	background-color: transparent;
+	border: 1px solid #777;
+	color: #777 !important;
+}
+.bar::before, .bar::after {
+	background: #21409a none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	height: 4px;
+	position: absolute;
+	transition: all 0.5s ease 0s;
+	width: 0;
+}
+.padding-box {
+	padding: 5px 20px 20px;
+}
+.no-padding {
+	padding: 0;
+}
+.bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+body {
+	font-family: myriad-pro;
+	background-color: transparent;
+}
+.margintopmd-25 {
+	margin-top: 25px;
+}
+/*switch*/
+
+.form-switch {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 5px;
+	-webkit-tap-highlight-color: transparent;
+	float: left;
+	padding-bottom: 18px;
+	margin-right: 10px;
+}
+.form-switch i {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 23px;
+	display: inline-block;
+	margin-right: 0.2rem;
+	position: relative;
+	transition: all 0.3s linear 0s;
+	vertical-align: text-bottom;
+	height: 22px !important;
+	width: 40px !important;
+}
+.form-switch i:before {
+	background-color: rgba(0, 0, 0, 0.17);
+	border-radius: 11px;
+	content: "";
+	left: 0;
+	position: absolute;
+	transform: translate3d(2px, 2px, 0px) scale3d(1, 1, 1);
+	transition: all 0.25s linear 0s;
+	height: 18px !important;
+	width: 36px !important;
+}
+.form-switch i:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	background-color: #fff;
+	border-radius: 11px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+	transform: translate3d(2px, 2px, 0);
+	transition: all 0.2s ease-in-out;
+	width: 18px !important;
+	height: 18px !important;
+}
+.form-switch:active i:after {
+	width: 28px;
+	transform: translate3d(2px, 2px, 0);
+}
+.form-switch:active input:checked + i::after {
+	transform: translate3d(16px, 2px, 0);
+}
+.form-switch input {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+.form-switch input:checked + i {
+	background-color: #4BD763;
+}
+.form-switch input:checked + i:before {
+	transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0);
+}
+.form-switch input:checked + i::after {
+	transform: translate3d(22px, 2px, 0);
+}
+#lineheight {
+	vertical-align: 4px;
+}
+.pvcy-stmt {
+	color: #000;
+	margin-left: 2px;
+	text-decoration: underline;
+}
+.pvcy-stmt:hover {
+	color: #fff;
+}
+/*switch end*/
+
+.btn-lg, .btn-group-lg > .btn {
+	border-radius: 4px;
+	font-size: 12px;
+	line-height: 1.33333;
+	padding: 8px 12px;
+}
+.btn-danger:hover {
+	background-color: #ff6600;
+	border-color: none;
+	color: #fff;
+}
+.formbg-brown {
+	background: transparent;
+	border-radius: 3px
+}
+/*.padding-box {
+	padding: 5px 20px 20px;
+}*/
+small, .small {
+	font-size: 17px;
+}
+.btn-danger {
+	background-color: #ff6600;
+	border-color: #e44b00;
+	color: #ffffff;
+}
+.fs-md-16 {
+	font-size: 16px;
+}
+#thankyou a p {
+	color: #fff;
+}
+#thankyou a {
+	color: #fff;
+}
+.submit-btn:hover {
+	color: #7E7E7E;
+	background-color: #fff;
+}
+</style>
+</head>
+<body>
+<div class="padding-box formbg-brown">
+  <div id="formhtml">
+    <form method="post" name="theForm" id="form662">
+      <input type="hidden" name="elqFormName" value="navigating-digital-2018">
+      <input type="hidden" name="elqSiteID" value="672742760">
+      <input type="hidden" name="Source" id="Source">
+      <input type="hidden" name="Docs" id="Docs">
+      <input type="hidden" value="" id="country" name="country">
+      <input type="hidden" value="" id="demandbase_sid" name="demandbase_sid">
+      <input type="hidden" value="" id="industry" name="industry">
+      <input type="hidden" value="" id="sub_industry" name="sub_industry">
+      <input type="hidden" value="" id="company_name" name="company_name">
+      <input type="hidden" value="" id="revenue_range" name="revenue_range">
+      <input type="hidden" value="" id="city" name="city">
+      <input type="hidden" value="" id="state" name="state">
+      <input type="hidden" value="" id="zip" name="zip">
+      <input type="hidden" value="" id="fortune_1000" name="fortune_1000">
+      <input type="hidden" value="" id="forbes_2000" name="forbes_2000">
+      <input type="hidden" value="" id="watch_list_account_type" name="watch_list_account_type">
+      <input type="hidden" value="" id="watch_list_account_status" name="watch_list_account_status">
+      <input type="hidden" value="" id="db_country_name_ip" name="db_country_name_ip">
+      <input type="hidden" value="" id="office_phone" name="office_phone">
+      <div class="col-xs-12 col-sm-8" style="margin-left:-25px;"> </div>
+      <div class="clearfix"></div>
+      <div class="row">
+        <div class="col-md-12 no-padding"> <span class="remove-absolute" style="display:block; margin-bottom:5px;width:50%; text-align:left;"><script src="https://www.linkedin.com/autofill/js/autofill.js" type="text/javascript" async=""></script> 
+          <script type="IN/Form2" data-form="form662" data-field-firstname="firstname" data-field-email="email" data-field-company="company"></script></span> </div>
+        <div class="col-md-12 no-padding">
+          <div class="required field-bg"> 
+            <!--   <label for="name">First name</label>-->
+            <input onblur="validateEmptys(this.form.firstname, 'firstname', 'alertYname')" value="" name="firstname" id="firstname" placeholder="Name">
+            <span class="bar"></span> <span id="alertYname"></span> </div>
+          <div class="required field-bg"> 
+            <!--  <label for="email">Email address</label>-->
+            <input onblur="checkemail(this.form.email, 'alertEmail');" value="" name="email" id="email" placeholder="Email">
+            <span class="bar"></span> <span id="alertEmail"></span> </div>
+          <div class="required field-bg"> 
+            <!--  <label for="company">Company</label>-->
+            <input onblur="validateEmptys_length(this.form.company, 'alertorganisation',1)" value="" title="Company" name="company" id="company" placeholder="Company">
+            <span class="bar"></span> <span id="alertorganisation"></span> </div>
+        </div>
+        <div class="col-md-12 no-padding">
+          <p class="text-left fs-md-16">
+            <label class="form-switch">
+              <input type="checkbox" id="opt-in-comm" name="opt-in-comm" value="No">
+              <i></i> </label>
+            <span id="lineheight">Opt in for marketing communication <a class="pvcy-stmt" href="/privacy-statement/pages/index.aspx" title="Privacy Statement" target="_blank">Privacy Statement</a></span></p>
+        </div>
+        <div class="col-xs-12 text-center">
+          <button  onclick="valid_registration(theForm);" type="button" class="submit-btn"><img src="/navigate-your-next/PublishingImages/download-icon.png" alt="Download Icon" /> Download</button>
+        </div>
+      </div>
+      
+      <!--</div>-->
+      
+    </form>
+    
+    <!-- Article 4 End --> 
+  </div>
+  <div class="col-md-8 col-sm-12 col-xs-12 col-md-offset-2 text-center margintopmd-25 marginbottom-25" id="thankyou" style="display: none">
+    <p class="marginbottom-md-20 margintop-sm-10"><strong>Thanks for registering</strong></p>
+    <a class="download-report" href="#" title="Download the report" target="_blank" id="download-doc">Download the report</a> </div>
+</div>
+
+<!-- WRAPPER END --> 
+
+<script type="text/javascript" src="../js/jquery.min.js"></script> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!--<script src="js/jquery-3.2.1.min.js"></script> --> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="/content/dam/infosys-web/en/global-resource/designs/js/jquery.min.js/bootstrap.min.js"></script> 
+<!-- Font Script --> 
+<script type="text/javascript" src="https://use.typekit.net/nkq8fly.js"></script> 
+<script>try { Typekit.load({ async: true }); } catch (e) { }</script> 
+<script>
+$('#opt-in-comm').click(function() {
+	
+	if($('input[type=checkbox]').prop('checked'))
+		$('input[type=checkbox]').attr('value','Yes');
+	else
+		$('input[type=checkbox]').attr('value','No');
+	
+
+});	
+	
+	
+	$(document).ready(function () {
+
+		//var Source = getQueryVariable_Source('cmpid');
+         var Source = parent.window.location.search.substring(1);
+		document.getElementById('Source').value = Source;
+
+		var docs = getQueryVariable('navigate_your_next');
+		document.getElementById('Docs').value = docs;
+		
+		//Accelerate
+		if (docs == 'legal-publisher') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/legal-publisher.pdf");
+		}
+		
+		if (docs == 'elevator-service') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/elevator-service.pdf");
+		}
+		
+		
+		if (docs == 'workplace-transformation') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/workplace-transformation.pdf");
+		}
+		if (docs == 'retail-ecommerce-platform') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/retail-ecommerce-platform.pdf");
+		}
+		if (docs == 'digital-platform') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/digital-platform.pdf");
+		}
+		if (docs == 'taking-the-complexity') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/taking-the-complexity.pdf");
+		}
+		if (docs == 'revenue-stream') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/revenue-stream.pdf");
+		}
+		if (docs == 'deliver-freshness') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/deliver-freshness.pdf");
+		}
+		if (docs == 'telecommunications-enterprise-agile') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/telecommunications-enterprise-agile.pdf");
+		}
+		if (docs == 'application-programming-interfaces') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/application-programming-interfaces.pdf");
+		}
+		if (docs == 'legacy-gives-way-to-agility') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/legacy-gives-way-to-agility.pdf");
+		}		
+		if (docs == 'born-smart') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/born-smart.pdf");
+		}
+		if (docs == 'finding-simplicity') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/finding-simplicity.pdf");
+		}
+		if (docs == 'intelligent-automation') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/intelligent-automation.pdf");
+		}
+		if (docs == 'every-corner-of-the-world') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/every-corner-of-the-world.pdf");
+		}
+		if (docs == 'blockchain-supply-chain') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/blockchain-supply-chain.pdf");
+		}
+		
+		if (docs == 'time-to-market') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/time-to-market.pdf");
+		}
+		if (docs == 'legacy-app-data') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/legacy-app-data.pdf");
+		}
+		if (docs == 'buying-cloud') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/buying-cloud.pdf");
+		}
+		/*if (docs == 'boosting-efficiency') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/boosting-efficiency.pdf");
+		}*/
+		if (docs == 'quoting-billing') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/quoting-billing.pdf");
+		}
+		if (docs == 'freedom-data-inaccuracies') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/freedom-data-inaccuracies.pdf");
+		}
+		if (docs == 'sales-inventory') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/sales-inventory.pdf");
+		}
+		
+		//agile digital scale - pentagon
+		if (docs == 'microservices-versus-the-monolith') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/microservices-versus-the-monolith.pdf");
+		}
+		if (docs == 'delivering-the-perfect-time') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/delivering-the-perfect-time.pdf");
+		}
+		if (docs == 'rpa-handling-exceptions') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/rpa-handling-exceptions.pdf");
+		}
+		if (docs == 'dlp-solution') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/dlp-solution.pdf");
+		}
+		if (docs == 'every-cloud-secure') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/every-cloud-secure.pdf");
+		}
+		if (docs == 'autonomous-robots') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/autonomous-robots.pdf");
+		}
+		if (docs == 'airport-tracking-solution') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/airport-tracking-solution.pdf");
+		}
+		if (docs == 'online-sales-now') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/online-sales-now.pdf");
+		}
+		if (docs == 'security-framework') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/security-framework.pdf");
+		}
+		if (docs == 'globally-standardized') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/globally-standardized.pdf");
+		}
+		if (docs == 'automation-changed') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/automation-changed.pdf");
+		}
+		if (docs == 'fashion-brand') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/fashion-brand.pdf");
+		}
+		
+		
+		//Assure
+		
+		if (docs == 'cyber-security') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/cyber-security.pdf");					
+		}
+		if (docs == 'staying-ahead') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/staying-ahead.pdf");					
+		}
+		
+		//Digital outlook	
+		
+		/*if (docs == 'automotive') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/automotive.pdf");					
+		}
+		if (docs == 'banking') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/banking.pdf");					
+		}
+		if (docs == 'consumer-packaged-goods') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/consumer-packaged-goods.pdf");				
+		}
+		if (docs == 'healthcare') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/healthcare.pdf");					
+		}
+		if (docs == 'industrial-manufacturing') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/industrial-manufacturing.pdf");				
+		}
+		if (docs == 'insurance') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/insurance.pdf");					
+		}
+		if (docs == 'life-sciences') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/life-sciences.pdf");					
+		}
+		if (docs == 'retail') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/retail.pdf");					
+		}
+		if (docs == 'utilities') {
+			$('#download-doc').attr("href", "/navigate-your-next/Documents/utilities.pdf");					
+		}*/
+		
+		
+		//Experience
+		
+		if (docs == 'personalized-care-digital') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/personalized-care-digital.pdf");					
+		}
+		if (docs == 'customer-experiences-digital') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/customer-experiences-digital.pdf");			
+		}
+		if (docs == 'user-driven-mobile-app') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/user-driven-mobile-app.pdf");
+		}
+		if (docs == 'banking-digital-native-customers') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/banking-digital-native-customers.pdf");
+		}
+		if (docs == 'innovative-mobile-app-rig-data') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/innovative-mobile-app-rig-data.pdf");
+		}
+		if (docs == 'digital-agility') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/digital-agility.pdf");					
+		}
+		if (docs == 'seamless-customer-experience') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/seamless-customer-experience.pdf");			
+		}
+		if (docs == 'creating-chief-future-officers') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/creating-chief-future-officers.pdf");		
+		}
+		if (docs == 'right-talent') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/right-talent.pdf");					
+		}
+		if (docs == 'health-insurance') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/health-insurance.pdf");					
+		}
+		if (docs == 'art-conversation') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/art-conversation.pdf");					
+		}
+		//Innovate
+		
+		if (docs == 'ideas-that-feed-the-world') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/ideas-that-feed-the-world.pdf");
+		}
+		if (docs == 'connected-care') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/connected-care.pdf");
+		}
+		if (docs == 'carbon-neutral-enterprise') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/carbon-neutral-enterprise.pdf");
+		}
+		if (docs == 'pure-air-filtration') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/pure-air-filtration.pdf");
+		}
+		//Insight
+		
+		if (docs == 'recruit-data-analytics') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/recruit-data-analytics.pdf");
+		}
+		if (docs == 'in-store-insights-data-analytics') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/in-store-insights-data-analytics.pdf");
+		}
+		if (docs == 'customer-service-efficiency') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/customer-service-efficiency.pdf");
+		}
+		if (docs == 'mission-critical-taskforce') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/mission-critical-taskforce.pdf");
+		}
+		if (docs == 'radial-turnaround-ecommerce') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/radial-turnaround-ecommerce.pdf");
+		}
+		if (docs == 'acquisition-retention') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/acquisition-retention.pdf");
+		}
+		if (docs == 'omnichannel-data-platform') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/omnichannel-data-platform.pdf");
+		}
+		//Take 5
+		
+		if (docs == 'secret-smart-packaging-real') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/secret-smart-packaging-real.pdf");
+		}
+		if (docs == 'scaling-it-globally') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/scaling-it-globally.pdf");
+		}
+		if (docs == 'reimagining-future-mobile') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/reimagining-future-mobile.pdf");
+		}
+		if (docs == 'searching-efficiency') {
+			$('#download-doc').attr("href", "/content/dam/infosys-web/en/navigate-your-next/Documents/searching-efficiency.pdf");
+		}
+		
+		//alert($('#download-doc').attr("href"));	
+		
+	});
+	</script> 
+
+<!-- FORM VALIDATION SCRIPT --> 
+<script type="text/javascript">
+	
+function getQueryVariable_Source(variable) {
+  var query = parent.window.location.search.substring(1);			
+	var vars = query.split("&");
+	for (var i = 0; i < vars.length; i++) {
+		var pair = vars[i].split("=");
+		if (pair[0] == variable) {
+			return pair[1];
+		}
+	}
+	return "";		
+
+}	
+	
+	
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);			
+	var vars = query.split("&");
+	for (var i = 0; i < vars.length; i++) {
+		var pair = vars[i].split("=");
+		if (pair[0] == variable) {
+			return pair[1];
+		}
+	}
+	return "";		
+
+}
+
+
+</script> 
+
+<!-- Form Validation --> 
+<script type="text/javascript">
+function isValidMailAddress(email) {
+    var match = /^\w+[-\.\w]*@(\w+[-\.\w]*?\.\w{2,4})$/.exec(email);
+    if (!match) {
+        return false;
+    }
+
+
+ /*   var forbiddenDomains = ["gmail.com", "hotmail.com", "yahoo.com", "yahoo.co.in","ymail.com", "yahoomail.com", "wipro.com", "ibm.com", "tcs.com", "hcl.com", "congizant.com", "accenture.com" , "capgemini.com"];
+    if (forbiddenDomains.indexOf(match[1].toLowerCase()) >= 0) {
+      return false;
+    }
+*/
+
+    return true;
+}
+
+
+function checkemail(fld, alertID) {
+    var error = "";
+    var str = fld.value;
+    var xer = document.getElementById(alertID);
+    var string = '<small class="redColor">Please enter a valid Email ID e.g.: abc@abc.com</small>';
+    var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
+
+    if (fld.value.length == 0) {
+        xer.innerHTML = '<small class="redColor">Please enter a valid Business Email ID e.g.: abc@abc.com</small>';
+        fld.style.border = borderFix;
+        error = "cancel";
+    } else if(!isValidMailAddress(str)) {
+      xer.innerHTML = '<small class="redColor">Please enter a valid Business Email ID e.g.: abc@abc.com</small>';
+      fld.style.border = borderFix;
+      error = "cancel";
+
+    }else if (filter.test(str)) {
+        xer.innerHTML = "";
+        fld.removeAttribute('style');
+        error = "";
+    }
+    else {
+        xer.innerHTML = string;
+        error = "cancel";
+        fld.style.border = borderFix;
+    }
+    return error;
+}
+
+
+    var borderFix='1px solid #ed1c2e';
+  // for redirection
+  function valid_registration(theForm) {
+	  
+	
+
+  	var empty="";   
+  	var reason="";
+	reason += validateEmptys(theForm.firstname, 'firstname', 'alertYname');		
+	reason += checkemail(theForm.email, 'alertEmail');
+	reason += validateEmptys_length(theForm.company, 'alertorganisation',1);
+		
+	if (reason != "") { 
+		return false;
+	} else {
+		
+			var firstname =  document.getElementById('firstname').value;			
+			var email =  document.getElementById('email').value;
+			var organisation =  document.getElementById('company').value;		
+			var optincomm =  document.getElementById('opt-in-comm').value;
+		
+			var demandbase_sid =  document.getElementById('demandbase_sid').value;
+			var industry =  document.getElementById('industry').value;
+			var sub_industry =  document.getElementById('sub_industry').value;
+			var company_name =  document.getElementById('company_name').value;
+			var revenue_range =  document.getElementById('revenue_range').value;
+			var city =  document.getElementById('city').value;
+			var state =  document.getElementById('state').value;
+			var zip =  document.getElementById('zip').value;
+			var fortune_1000 =  document.getElementById('fortune_1000').value;
+			var forbes_2000 =  document.getElementById('forbes_2000').value;
+			var watch_list_account_type =  document.getElementById('watch_list_account_type').value;
+			var watch_list_account_status =  document.getElementById('watch_list_account_status').value;
+			var db_country_name_ip =  document.getElementById('db_country_name_ip').value;
+			var office_phone =  document.getElementById('office_phone').value;		
+		
+			Source =  document.getElementById('Source').value;
+			docs = document.getElementById('Docs').value;
+
+
+			var dataString = 'https://s672742760.t.eloqua.com/e/f2?elqFormName=navigating-digital-2018&elqSiteID=672742760&email=' + email + '&name=' + firstname +'&company=' + organisation +'&demandbase_sid='+ demandbase_sid +'&industry='+ industry+
+'&sub_industry='+ sub_industry+'&company_name='+company_name +'&revenue_range='+revenue_range +'&city='+ city +'&state='+ state +'&zip='+ zip +'&fortune_1000='+fortune_1000 +'&forbes_2000='+ forbes_2000 +'&watch_list_account_type='+ watch_list_account_type +'&watch_list_account_status=' +watch_list_account_status +'&db_country_name_ip='+ db_country_name_ip +'&office_phone='+ office_phone +'&Source='+Source + '&docs='+docs+'&opt-in-comm='+optincomm+'' ;
+      //  alert(dataString);   
+  document.getElementById("blind").innerHTML = '<img src="'+ dataString +'" id="submit" style="width:1px; height:1px;" />';
+		
+		document.getElementById('formhtml').style.display = 'none';
+		document.getElementById('thankyou').style.display = 'block';
+		window.parent.steeringdigital(); 
+		_satellite.track("form_submit")
+		return false; 
+	}
+  }
+  
+	
+digitalData.page.formName = document.title;
+digitalData.page.formStart = '1';	
+	
+</script> 
+<script>
+
+function validateUrl(){
+	var error = "";
+	var x=window.location.href;
+	if(x.indexOf('infosys.com')!=-1){
+		error = "";
+		}
+	else {
+	alert("Offsite Page");
+		error ="cancel";
+		}
+	return error;
+}
+
+function validateEmptys_length(fld, alertID, lenght) {
+    var error = "";
+	var xer = document.getElementById(alertID);
+    if (fld.value.length < lenght) {
+        fld.style.border = borderFix;
+		 //xer.innerHTML = '<small class="redColor">Please check the <span class="text-capitalize">'+ fld.title +'</span> you have entered</small>';
+        error = "cancel";
+    } else {
+        fld.removeAttribute('style');
+		xer.innerHTML = '';
+        error = "";
+    }
+    return error;
+}
+
+function validateEmptys(fld, name, alertID) {
+    var error = "";
+    var special;
+    var xer = document.getElementById(alertID);
+   // var string = '<small class="redColor">Please check the First Name you have entered</small>';
+    var TCode = fld.value;
+
+    if (name == 'name') {
+        special = /[^a-zA-Z\ \.]/;
+    } else {
+        special = /[^a-zA-Z\ ]/;
+    }
+
+    if (fld.value.length == 0) {
+      //  xer.innerHTML = '<small class="redColor">Please check the First Name you have entered</small>';
+        fld.style.border = borderFix;
+        error = "cancel";
+    } else if (special.test(TCode)) {
+        xer.innerHTML = string;
+        fld.style.border = borderFix;
+        error = "cancel";
+    } else {
+        xer.innerHTML = '';
+        fld.removeAttribute('style');
+        error = "";
+    }
+    return error;
+}
+
+function checkemail(fld, alertID) {
+    var error = "";
+    var str = fld.value;
+    var xer = document.getElementById(alertID);
+   // var string = '<small class="redColor">Please enter a valid Email ID e.g.: abc@abc.com</small>';
+    var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
+
+    if (fld.value.length == 0) {
+       // xer.innerHTML = '<small class="redColor">Please enter a valid Business Email ID e.g.: abc@abc.com</small>';
+        fld.style.border = borderFix;
+        error = "cancel";
+    } else if(!isValidMailAddress(str)) {
+      //xer.innerHTML = '<small class="redColor">Please enter a valid Business Email ID e.g.: abc@abc.com</small>';
+      fld.style.border = borderFix;
+      error = "cancel";
+
+    }else if (filter.test(str)) {
+        xer.innerHTML = "";
+        fld.removeAttribute('style');
+        error = "";
+    }
+    else {
+        xer.innerHTML = string;
+        error = "cancel";
+        fld.style.border = borderFix;
+    }
+    return error;
+}
+
+function get_length(stringIHave) {
+    keywordsArr = stringIHave.split(' '),
+    xvalue = keywordsArr.length - 1;
+	var spaceCount=parseInt(stringIHave.length - xvalue);
+    return spaceCount;
+}
+
+//number
+/*function find_num_phone(fld, min, max, alertPhone) {
+    var actLength = get_length(fld.value);
+    var error = "";
+    var strings = document.getElementById(alertPhone);
+    var text = '<small class="redColor">(Please check the <span class="text-capitalize">'+ fld.title +'</span> you have entered)</small>';
+    if (/[^0-9\ ]/.test(fld.value)) {
+        fld.style.border = '1px solid red';
+        strings.innerHTML = text;
+        error = "cancel";
+    } else if (actLength < min || actLength > max) {
+
+        fld.style.border = '1px solid red';
+        strings.innerHTML = text;
+        error = "cancel";
+    } else {
+        error = "";
+        fld.removeAttribute('style');
+        strings.innerHTML = '';
+    }
+    return error;
+}
+*/
+function validateEmptysRadio(alertID, radioname) {
+var radios = document.getElementsByName(radioname);
+var xer1 = document.getElementById(alertID);
+var borderred = "1px solid #ed1c2e";
+var Radio = '<small class="redColor">Please select one of the above options.</small>';
+var error = "";
+	 chosen = "";
+	 len = radios.length;
+
+//alert(len);
+for (i = 0; i <len; i++) {
+if (radios[i].checked) {
+chosen = radios[i].value
+}
+}
+
+if (chosen == '') {
+		  xer1.innerHTML = Radio;
+		  document.getElementById("alertAler2").style.border = borderred;
+		  error= "cancel";
+
+}
+else {
+//alert(chosen)
+		 xer1.innerHTML = '';
+		 document.getElementById("alertAler2").style.border ='';
+
+}
+  return error;
+
+}
+
+function getFocus(){
+  document.getElementById('name').focus();
+  }
+
+</script>
+<div id="blind"> </div>
+<script type="text/javascript">_satellite.pageBottom();</script>
+</body>
+</html>

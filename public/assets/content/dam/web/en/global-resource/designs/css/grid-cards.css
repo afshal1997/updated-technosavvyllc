@@ -1,0 +1,157 @@
+.modal-backdrop {
+	z-index: 99998 !important;
+}
+.modal {
+	z-index: 99999 !important;
+}
+.grid-bg1 {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.col-bg > [class*="col-"] {
+	padding: 5px;
+}
+.box01, .box02 {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.box01 {
+	height: 350px;
+}
+.box02 {
+	height: 200px;
+}
+.box01 img, .box02 img {
+	float: right;
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.box01:hover img, .box02:hover img {
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.1, M12=0, M21=0, M22=1.1, SizingMethod='auto expand')";
+ filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.1, M12=0, M21=0, M22=1.1, SizingMethod='auto expand');
+	transform: scale(1.1);
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.grid-ovl {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.box01:hover .grid-ovl, .box02:hover .grid-ovl {
+	background-color: rgba(0,0,0,0.6);
+}
+.grid-caption {
+	padding: 15px;
+	position: absolute;
+	bottom: 0px;
+}
+.grid-caption.cap1, .grid-caption.cap6 {
+	width: 70%;
+}
+.grid-caption.cap2 {
+	width: 60%;
+}
+.grid-caption.cap3, .grid-caption.cap5 {
+	width: 65%;
+}
+.grid-caption.cap4 {
+	width: 75%;
+}
+.grid-caption .h4 {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.grid-caption .h3 {
+	font-size: 40px;
+	color: #fff;
+	font-weight: 500;
+	font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+	margin-top: 0px;
+	line-height: 36px;
+	margin-bottom: 5px !important;
+}
+.grid-caption p {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	font-family: "Tungsten A", "Tungsten B", "Khand", sans-serif;
+	margin-bottom: 0px !important;
+	letter-spacing: 1px;
+}
+/*popup*/
+.grid-popup .modal-header {
+	padding: 0px;
+	border-bottom: 0;
+}
+.grid-popup .modal-header .close {
+	margin-top: 0px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	z-index: 9;
+	opacity: 0.8;
+}
+.grid-popup .modal-dialog {
+	margin: 30px auto;
+	width: 100%;
+	max-width: 800px;
+}
+.grid-popup .modal-body {
+	position: relative;
+	padding: 30px;
+}
+.grid-popup .modal-body h2 {
+	padding-bottom: 15px;
+}
+.grid-popup .modal-body h5 {
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+.grid-caption.cap1, .grid-caption.cap2, .grid-caption.cap3, .grid-caption.cap4, .grid-caption.cap5, .grid-caption.cap6 {
+	width: 100%;
+}
+.grid-caption .h3 {
+	font-size: 35px;
+}
+.box01:hover img, .box02:hover img {
+	-o-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.grid-ovl {
+	background-color: rgba(0,0,0,0.5);
+}
+.box01:hover .grid-ovl, .box02:hover .grid-ovl {
+	background-color: rgba(0,0,0,0.5);
+}
+}
+
+@media screen and (max-width: 992px) {
+.col-bg > [class*="col-"] {
+	padding: 0 0 5px 0;
+}
+.box01, .box02 {
+	height: 200px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.grid-popup .modal-body h2 {
+	font-size: 26px;
+}
+}

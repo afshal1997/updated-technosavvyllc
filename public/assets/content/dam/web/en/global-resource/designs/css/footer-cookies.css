@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#showcookies {
+	font-size: 20px;
+	color: #007cc3;
+}
+#preferences {
+	margin-left: -36px;
+	font-size: 20px;
+	margin-top: -19px !important;
+}
+.optanon-show-settings-middle {
+	height: 100% !important;
+}
+.optanon-show-settings {
+	background: #b8b8b8;
+	padding: 8px 20px !important;
+	margin-bottom: 30px;
+	border: 1px solid #b8b8b8 !important;
+	color: #3f3f3f !important;
+}
+.optanon-show-settings:hover {
+	background-color: transparent !important;
+}
+.mb25 {
+	margin-bottom: 25px;
+}
+.optanon-show-settings {
+	display: none !important;
+}
+.optanon-show-settings-right {
+	display: block!important;
+}
+.optanon-show-settings-popup-wrapper {
+	background-color: #ECECEC !important;
+}
+.optanon-show-settings-popup-wrapper .optanon-show-settings-button .optanon-show-settings-left {
+	background-color: #ECECEC !important;
+	border-radius: 25px;
+	height: 38px !important;
+	width: 40px !important;
+}
+.optanon-show-settings-popup-wrapper .optanon-show-settings-left {
+	background-color: #ECECEC !important;
+	background-image: url("../../../common-collections/cookies-setting.png") !important;
+	background-origin: padding-box;
+	background-position: 7px 6px !important;
+	background-repeat: no-repeat;
+	background-size: 25px auto !important;
+	border: none !important;
+	float: left;
+	height: 38px !important;
+	width: 40px !important;
+	display: none !important;
+}
+.optanon-show-settings-popup-wrapper .optanon-show-settings-middle {
+	background: transparent !important;
+	border-top: 0px solid #ccc !important;
+	border-bottom: 0px solid #ccc !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	background: none;
+	float: left;
+	height: 23px !important;
+	padding-top: 7px;
+}
+.optanon-show-settings-popup-wrapper .optanon-show-settings-middle a.optanon-show-settings {
+	display: block !important;
+	font-size: 20px !important;
+}
+.optanon-show-settings-popup-wrapper .optanon-show-settings-right {
+	background: transparent !important;
+	border-top: 0px solid #ccc !important;
+	border-bottom: 0px solid #ccc !important;
+	border-right: 0px solid #ccc !important;
+	border-left: 0px solid #ccc !important;
+	background: none;
+	float: left;
+	height: 30px !important;
+	width: 8px !important;
+}
