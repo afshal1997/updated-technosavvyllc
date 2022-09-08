@@ -57,7 +57,7 @@
                     <nav class="navbar navbar-default navbar-fixed-top scrollbg-show " role="navigation">
                         <div class="container mt45">
                             <div class="navbar-header page-scroll">
-                                <a class="navbar-brand" href="/">
+                                <a class="navbar-brand" href="{{ route('home') }}">
                                     <img src="./assets/images/home/logo.svg" alt="technosavvyllc logo" width="250">
                                 </a>
                             </div>
@@ -103,7 +103,7 @@
                                                 </a>
                                                 <ul class="list-unstyled">
                                                     <li class="" title="Home">
-                                                        <a href="/" title="Home" class="" target="_self">
+                                                        <a href="{{ route('home') }}" title="Home" class="" target="_self">
                                                             Home<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                         </a>
                                                     </li>

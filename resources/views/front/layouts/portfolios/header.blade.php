@@ -4,7 +4,7 @@
 		<header>
 			<div class="logo-box">
 				<div class="logo-box-in">
-					<a class="logo" href="https://technosavvyllc.com/">
+					<a class="logo" href="{{ route('home') }}">
 						<img alt="/Techno Savvy/" src="./assets/images/home/logo.svg">
 					</a>
 					<p class="slogan">

@@ -20,7 +20,7 @@
                         <div class="right-con-f">
                             <h3 class="ftr-head mt-xs-20">Quick Links</h3>
                             <ul class="list-unstyled footer-txt">
-                                <li><a href="https://technosavvyllc.com">Home</a></li>
+                                <li><a href="{{ route('home') }}">Home</a></li>
                                 <li><a href="about">About Us</a></li>
                                 <li><a href="portfolios">Portfolio</a></li>
                                 <li><a href="privacy-policy">Privacy Policy</a></li>
