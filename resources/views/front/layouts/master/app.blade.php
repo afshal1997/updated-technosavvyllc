@@ -1,18 +1,5 @@
 <!doctype html>
 <html lang="en">
-
-@php
-
-$base_url = $_SERVER['HTTP_HOST'];
-$self = $_SERVER['PHP_SELF'];
-$arr = explode("/", $self);
-$with_ext = $arr['1'];
-$arr2 = explode(".", $with_ext);
-$page = $arr2['0'];
-$port_page = $arr2['0'];
-
-@endphp
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,16 +13,11 @@ $port_page = $arr2['0'];
     <meta name="author" Content="Techno Savvy LLC" />
     <meta name="template" content="content-page" />
 
-    <title> @yield('title')</title>
+    <title>{{ env('APP_NAME') }} | @yield('title')</title>
     
     @include('front.layouts.master.css')
 </head>
-@if(request()->route()->getName() == 'home')
-<body class="page basepage basicpage <?php echo $page ?>">
-
-@else
-<body class="page basepage basicpage">
-@endif
+<body class="page basepage basicpage {{ url('/') == url()->current() ? 'index fp-viewing-0' : '' }}">
 
     @include('front.layouts.master.header')
     @yield('content')
