@@ -1,17 +1,8 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::view('/', 'front.home')->name('home');
 Route::view('about', 'front.about')->name('about');
@@ -35,3 +26,6 @@ Route::view('refund-policy', 'front.refund-policy')->name('refund-policy');
 Route::view('thankyou', 'front.thankyou')->name('thankyou');
 Route::view('web-development-portfolio', 'front.web-development-portfolio')->name('web-development-portfolio');
 Route::view('thankyou', 'front.thankyou')->name('thankyou');
+
+Route::post('homePageForm',[HomeController::class,'homeForm'])->name('homeForm');
+Route::post('modalForm',[HomeController::class,'modalForm'])->name('modalForm');

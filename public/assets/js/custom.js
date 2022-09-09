@@ -270,8 +270,9 @@ jQuery('.digital-portfolio-sec .nav-tabs>li>a').click(function () {
 });
 
 $(document).ready(function () {
-    $('#formvalues').on('submit', function (e) {
+    $('#formvaluess').on('submit', function (e) {
         e.preventDefault();
+        alert(" iam ");
         let full_name = $('#full_name').val();
         let phone = $('#phone').val();
         let company = $('#company').val();
@@ -279,35 +280,35 @@ $(document).ready(function () {
         var error = 0;
         if (full_name == '') {
             $('#full_name_err').text("Full Name is required");
-            $('#formvalues .full_name').focus();
+            $('#formvaluess .full_name').focus();
             error++;
         }
         if (email == '') {
             $('#email_err').text("Email is required");
 
-            $('#formvalues .email').focus();
+            $('#formvaluess .email').focus();
             error++;
         }
         if (!validateEmail(email)) {
             error++;
             $('#email_err').text("Email Not Valid");
-            $('#formvalues .email').focus();
+            $('#formvaluess .email').focus();
         }
         if (phone == '') {
             $('#phone_err').text("Phone is required");
-            $('#formvalues .phone').focus();
+            $('#formvaluess .phone').focus();
             error++;
         }
         if (company == '') {
             $('#company_err').text("Company Name is required");
-            $('#formvalues .company').focus();
+            $('#formvaluess .company').focus();
             error++;
         }
         if (error == 0) {
 
 
             $.ajax({
-                url: 'postForms',
+                url: 'modalForm',
                 type: 'post',
                 dataType: "JSON",
                 data: new FormData(this),
@@ -317,9 +318,9 @@ $(document).ready(function () {
                     if (data.status == true) {
                         $('input').val('');
                         $('#exampleModal').modal('hide');
-                        window.location.href = 'https://technosavvyllc.com/thankyou';
+                        window.location.href = '/thankyou';
                     } else {
-                        alert(data.message);
+                        alert("Some thing Went Wrong");
                     }
 
                 }
@@ -333,6 +334,7 @@ $(document).ready(function () {
         let phone = $('#phone_contact').val();
         let email = $('#email_contact').val();
         let subject = $('#subject_contact').val();
+      
 
 
         var error = 0;
@@ -366,7 +368,7 @@ $(document).ready(function () {
         }
         if (error == 0) {
             $.ajax({
-                url: 'contactUsForm',
+                url: 'homePageForm',
                 type: 'post',
                 dataType: "JSON",
                 data: new FormData(this),
@@ -375,9 +377,9 @@ $(document).ready(function () {
                 success: function (data) {
                     if (data.status == true) {
                         $('input').val('');
-                        window.location.href = 'https://technosavvyllc.comthankyou';
+                        window.location.href = '/thankyou';
                     } else {
-                        alert(data.message);
+                        alert("Some thing Went Wrong");
                     }
                 }
             })

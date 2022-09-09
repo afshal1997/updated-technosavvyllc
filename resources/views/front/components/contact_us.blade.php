@@ -10,7 +10,8 @@
             <div class="inner_contact_row">
                 <h4>Get in Touch!</h4>
                 <p>We create experiences that brands live by. Get in Touch for the best services quickly.</p>
-                <form class="contact mb20 mb-xs-10 mt50 mt-xs-0" id="contactForm">
+                <form  class="contact mb20 mb-xs-10 mt50 mt-xs-0" id="contactForm">
+                    @csrf
                     <div class="col-sm-6">
                         <input type="text" name="full_name" id="full_name_contact" placeholder="First Name *" class="full_name">
                         <span id="full_name_contact_err" style="color:red"></span>

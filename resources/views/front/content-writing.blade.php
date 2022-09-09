@@ -167,38 +167,38 @@
                     <a href="web-development-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Web Development</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port1.jpg">
+                        <img src="./assets/images/home/port1.jpg" alt="port1">
                     </a>
                     <a href="digital-marketing-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus"/>
                                 <p>Digital Marketing</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port2.jpg">
+                        <img src="./assets/images/home/port2.jpg" alt="port2.jpg">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 first_col_inner" data-aos="">
                     <a href="app-development-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus"/>
                                 <p>App Development</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port3.jpg">
+                        <img src="./assets/images/home/port3.jpg" alt="port3">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 third_col_inner" data-aos="">
                     <a href="brand-creative-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus"/>
                                 <p>Brand And Creative</p>
                             </div>
                         </span>
@@ -206,11 +206,11 @@
                     <a href="animations-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus"/>
                                 <p>Animations</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port5.jpg">
+                        <img src="./assets/images/home/port5.jpg" alt="port5">
                     </a>
                 </div>
 

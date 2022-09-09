@@ -1,5 +1,5 @@
 <body class="portfolio-body portfolio-main">
-	<div id="preloader"><img src="./assets/images/loader/techno-savvy-Loading.gif" /></div>
+	<div id="preloader"><img src="./assets/images/loader/techno-savvy-Loading.gif" alt="loading"/></div>
 	<div id="container" class="portfolio-page-tn">
 		<header>
 			<div class="logo-box">

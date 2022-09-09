@@ -10,7 +10,7 @@
             <div class="row">
               <div class="col-sm-6 info">
                 <p>
-                  <img src="./assets/images/home/locate.png" alt="assets/images/home/locate">
+                  <img src="./assets/images/home/locate.png" alt="locate">
                   <span>309 Fellowship Road, East Gate Center, Suite 200, Mt Laurel Township, NJ 08054</span>
                 </p>
               </div>
@@ -18,13 +18,13 @@
                 <div class="info-in">
                   <p>
                     <a href="tel:+1 (609) 775 9538">+1 (609) 775 9538</a>
-                    <img src="./assets/images/home/ph-f.png" alt="assets/images/home/ph-f">
+                    <img src="./assets/images/home/ph-f.png" alt="ph-f">
                   </p>
                 </div>
                 <div class="info-in">
                   <p>
                     <a href="mailto:info@technosavvyllc.com">info@technosavvyllc.com</a>
-                    <img src="./assets/images/home/mail.png" alt="assets/images/home/mail.png">
+                    <img src="./assets/images/home/mail.png" alt="mail.png">
                   </p>
                 </div>
               </div>

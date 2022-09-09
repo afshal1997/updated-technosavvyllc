@@ -3098,7 +3098,7 @@ body:not(.index) {
 }
 
 .burger.invertHeader {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
     transition: 1s;
 }
@@ -3939,6 +3939,12 @@ body.index .learn,
 body.index .innovate,
 body.index .automate {
     padding-top: 1.515vw;
+}
+
+.automate {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    transition: 1s;
 }
 
 div.burger {

@@ -16,22 +16,23 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form method="post" id="formvalues">
+                <form method="post" id="formvaluess">
+                    @csrf
                     <div class="form-group">
-                        <input type="text" class="form-control" name="full_name" id="full_name" placeholder="Name *">
+                        <input type="text" class="form-control" name="full_name" id="full_name" placeholder="Name *" required>
                         <span id="full_name_err" style="color:red"></span>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control email" name="email" id="email" placeholder="Email Address *">
+                        <input type="email" class="form-control email" name="email" id="email" placeholder="Email Address *" required>
                         <span id="email_err" style="color:red"></span>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control phone" name="phone" id="phone" placeholder="Phone Address *">
+                        <input type="text" class="form-control phone" name="phone" id="phone" placeholder="Phone Address *" required>
                         <span id="phone_err" style="color:red"></span>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control company" name="company" id="company" placeholder="Company *">
+                        <input type="text" class="form-control company" name="company" id="company" placeholder="Company *" required>
                         <span id="company_err" style="color:red"></span>
                     </div>
 
@@ -64,11 +65,11 @@
                             <div class="header-menu hidden-tab">
                                 <ul class="nav navbar-nav navbar-right top-nav">
                                     <li>
-                                        <img src="./assets/images/home/ph.png" />
+                                        <img src="./assets/images/home/ph.png" alt="ph" />
                                         <a href="tel:+1 (929) 209-0208" title="+1 (929) 209-0208">+1 (929) 209-0208</a>
                                     </li>
                                     <li>
-                                        <img src="./assets/images/home/enveloe.png" />
+                                        <img src="./assets/images/home/enveloe.png" alt="enveloe"/>
                                         <a href="mailto:info@technosavvyllc.com" title="info@technosavvyllc.com">info@technosavvyllc.com</a>
                                     </li>
                                     <li class="social-head"><a href="https://www.facebook.com/TechnoSavvyllc"><i class="fa fa-facebook"></i></a></li>

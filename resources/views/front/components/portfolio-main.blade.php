@@ -1178,12 +1178,12 @@
 			</div>
 			<div class="modal-body">
 				<div class="top-modal-content">
-					<img src="assets/images/digital/port1.jpg">
+					<img src="assets/images/digital/port1.jpg" alt="port1">
 				</div>
 				<div class="bottom-modal-content">
 					<div class="inner-model-bottom row">
 						<div class="col-lg-3 col-xs-12">
-							<img src="assets/images/digital/port1-logo.png" />
+							<img src="assets/images/digital/port1-logo.png" alt="port1"/>
 						</div>
 						<div class="col-lg-9 col-xs-12">
 							<h4>Valvoline</h4>

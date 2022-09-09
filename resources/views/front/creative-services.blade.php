@@ -26,7 +26,7 @@
                 <div class="title-div text-center">
                     <h2>Our Creative <span class="creative-theme">Process</span></h2>
                     <p>
-                    Our comprehensive branding and creative services are precisely tailored to our client’s core objective and requirement in pursuing a long-term strategic relationship with them.
+                        Our comprehensive branding and creative services are precisely tailored to our client’s core objective and requirement in pursuing a long-term strategic relationship with them.
                     </p>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                     <img src="assets/images/creative/1.png" />
                     <h4>Concept</h4>
                     <p>To create, we thoroughly communicate and conceptualize your design’s prerequisite.</p>
-                </div>  
+                </div>
                 <div class="col-sm-6 col-xs-12">
                     <img src="assets/images/creative/2.png" />
                     <h4>Wire Framing</h4>
@@ -86,12 +86,11 @@
                     <h3 class="white-color">Maximize Usability & Augment User-Experience</h3>
                     <p class="white-color">
                         <span>
-                        Our virtuoso designers suffice and encapsulate your brand’s visuality in enriching user-friendly experience. We navigate customers to your platform and streamline salient facets of your business!
+                            Our virtuoso designers suffice and encapsulate your brand’s visuality in enriching user-friendly experience. We navigate customers to your platform and streamline salient facets of your business!
                         </span>
                     </p>
                     <p class="">
-                        <a class="hero-btn creative" href="javascript:void(0)" data-toggle="modal"
-                            data-target="#exampleModal">Get a Quote</a>
+                        <a class="hero-btn creative" href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal">Get a Quote</a>
                     </p>
                 </div>
             </div>
@@ -107,12 +106,11 @@
                     <h3 class="white-color">Maximize Usability & Augment User-Experience</h3>
                     <p class="white-color">
                         <span>
-                        Together, we’ll create an innovative standard of your brand to position itself amongst high-end and reckoned competitors that are currently leading the digital industry.
+                            Together, we’ll create an innovative standard of your brand to position itself amongst high-end and reckoned competitors that are currently leading the digital industry.
                         </span>
                     </p>
                     <p class="">
-                        <a class="hero-btn creative-light" href="javascript:void(0)" data-toggle="modal"
-                            data-target="#exampleModal">Get a Quote</a>
+                        <a class="hero-btn creative-light" href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal">Get a Quote</a>
                     </p>
                 </div>
             </div>
@@ -128,12 +126,11 @@
                     <h3 class="white-color">Animate Your Brand’s Vision</h3>
                     <p class="white-color">
                         <span>
-                        Creative animation brings imagination into visualization! Inspired by vintage illustration, drawing, and sketching - we adhere to disseminate your brand message as impactfully as it is effective.
+                            Creative animation brings imagination into visualization! Inspired by vintage illustration, drawing, and sketching - we adhere to disseminate your brand message as impactfully as it is effective.
                         </span>
                     </p>
                     <p class="">
-                        <a class="hero-btn creative" href="javascript:void(0)" data-toggle="modal"
-                            data-target="#exampleModal">Get a Quote</a>
+                        <a class="hero-btn creative" href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal">Get a Quote</a>
                     </p>
                 </div>
             </div>
@@ -141,13 +138,11 @@
     </div>
 </div>
 
-<div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax-tn" id="home_sec7"
-    style="background-color: #fafafa;">
+<div class="freeflowhtml aem-GridColumn aem-GridColumn--default--12 height-100vh parallax-tn" id="home_sec7" style="background-color: #fafafa;">
     <section id="our_portfolio" class="scroll-section portfoilo_row">
         <article class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center digital_mark_head mb40 aos-init aos-animate"
-                    data-aos="">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center digital_mark_head mb40 aos-init aos-animate" data-aos="">
                     <h2 class="text-uppercase">OUR PORTFOLIO</h2>
                     <p class="">We are proud of what we create and deliver to our valued clients in all parts of the
                         world.</p>
@@ -158,50 +153,50 @@
                     <a href="web-development-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Web Development</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port1.jpg">
+                        <img src="./assets/images/home/port1.jpg" alt="plus">
                     </a>
                     <a href="digital-marketing-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Digital Marketing</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port2.jpg">
+                        <img src="./assets/images/home/port2.jpg" alt="plus">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 first_col_inner" data-aos="">
                     <a href="app-development-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>App Development</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port3.jpg">
+                        <img src="./assets/images/home/port3.jpg" alt="plus">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 third_col_inner" data-aos="">
                     <a href="brand-creative-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Brand And Creative</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port4.jpg"></a>
+                        <img src="./assets/images/home/port4.jpg" alt="plus"></a>
                     <a href="animations-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Animations</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port5.jpg">
+                        <img src="./assets/images/home/port5.jpg" alt="plus">
                     </a>
                 </div>
 

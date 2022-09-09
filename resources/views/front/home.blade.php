@@ -20,7 +20,7 @@
                                     </h3>
                                 </div>
                                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 with-sam-logo" data-aos="fade-up">
-                                    <img src="./assets/images/home/sam-img.png">
+                                    <img src="./assets/images/home/sam-img.png" alt="sam-img">
                                 </div>
                             </div>
                         </div>
@@ -39,16 +39,16 @@
                     </div>
                     <div class="col-lg-8 associate-with-slides">
                         <div class="associate-with-img">
-                            <img src="./assets/images/home/bing.png">
+                            <img src="./assets/images/home/bing.png" alt="bing">
                         </div>
                         <div class="associate-with-img">
-                            <img src="./assets/images/home/goodfirm.png">
+                            <img src="./assets/images/home/goodfirm.png" alt="goodfirm">
                         </div>
                         <div class="associate-with-img">
-                            <img src="./assets/images/home/google-partner.png">
+                            <img src="./assets/images/home/google-partner.png" alt="google-partner">
                         </div>
                         <div class="associate-with-img">
-                            <img src="./assets/images/home/clutch.png">
+                            <img src="./assets/images/home/clutch.png" alt="clutch">
                         </div>
                     </div>
                 </div>
@@ -62,8 +62,8 @@
             <div class="row">
                 <div class="content home-second-heading-top">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-div" data-aos="">
-                        <img src="./assets/images/home/story-img.png" class="hidden-xs">
-                        <img src="./assets/images/home/story-img1.png" class="visible-xs">
+                        <img src="./assets/images/home/story-img.png"  alt="story-img" class="hidden-xs">
+                        <img src="./assets/images/home/story-img1.png" alt="story-img"  class="visible-xs">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right_col_pad cont-div" data-aos="">
                         <h2>Our Story</h2>
@@ -100,8 +100,8 @@
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-div" data-aos="">
-                        <img src="./assets/images/home/digital-img.png" class="hidden-xs">
-                        <img src="./assets/images/home/digital-img1.png" class="visible-xs">
+                        <img src="./assets/images/home/digital-img.png"  alt="digital-img" class="hidden-xs">
+                        <img src="./assets/images/home/digital-img1.png" alt="digital-img"  class="visible-xs">
                     </div>
                 </div>
             </div>
@@ -114,8 +114,8 @@
             <div class="row">
                 <div class="content home-second-heading-top">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-div" data-aos="">
-                        <img src="./assets/images/home/creative-img.png" class="hidden-xs">
-                        <img src="./assets/images/home/creative-img1.png" class="visible-xs">
+                        <img src="./assets/images/home/creative-img.png"  alt="creative-img" class="hidden-xs">
+                        <img src="./assets/images/home/creative-img1.png" alt="creative-img"  class="visible-xs">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cont-div" data-aos="">
                         <h2>Creative Services</h2>
@@ -155,8 +155,8 @@
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 aos-init aos-animate image-div" data-aos="">
-                        <img src="./assets/images/home/development-img.png" class="hidden-xs">
-                        <img src="./assets/images/home/development-img1.png" class="visible-xs">
+                        <img src="./assets/images/home/development-img.png"  alt="development-img" class="hidden-xs">
+                        <img src="./assets/images/home/development-img1.png" alt="development-img"  class="visible-xs">
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@
             <div class="row">
                 <div class="content home-second-heading-top">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-div" data-aos="">
-                        <img src="./assets/images/home/enterprise-img.png" class="hidden-xs">
+                        <img src="./assets/images/home/enterprise-img.png" alt="enterprise-img" class="hidden-xs">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cont-div" data-aos="">
                         <h2>Enterprise Solutions</h2>
@@ -205,16 +205,16 @@
                     <a href="web-development-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Web Development</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port1.jpg">
+                        <img src="./assets/images/home/port1.jpg" alt="port1">
                     </a>
                     <a href="digital-marketing-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Digital Marketing</p>
                             </div>
                         </span>
@@ -225,7 +225,7 @@
                     <a href="app-development-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>App Development</p>
                             </div>
                         </span>
@@ -236,7 +236,7 @@
                     <a href="brand-creative-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Brand And Creative</p>
                             </div>
                         </span>
@@ -244,11 +244,11 @@
                     <a href="animations-portfolio">
                         <span>
                             <div class="plus-img">
-                                <img src="./assets/images/home/plus.png" />
+                                <img src="./assets/images/home/plus.png" alt="plus" />
                                 <p>Animations</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port5.jpg">
+                        <img src="./assets/images/home/port5.jpg" alt="port5">
                     </a>
                 </div>
 
@@ -271,7 +271,7 @@
                         <div class="row">
                             <div class="col-sm-6 info">
                                 <p>
-                                    <img src="./assets/images/home/locate.png">
+                                    <img src="./assets/images/home/locate.png" alt="locate">
                                     <span>309 Fellowship Road, East Gate Center, Suite 200, Mt Laurel Township, NJ 08054</span>
                                 </p>
                             </div>
@@ -279,13 +279,13 @@
                                 <div class="info-in">
                                     <p>
                                         <a href="tel:+1 (609) 775 9538">+1 (609) 775 9538</a>
-                                        <img src="./assets/images/home/ph-f.png">
+                                        <img src="./assets/images/home/ph-f.png" alt="ph-f">
                                     </p>
                                 </div>
                                 <div class="info-in">
                                     <p>
                                         <a href="mailto:info@technosavvyllc.com">info@technosavvyllc.com</a>
-                                        <img src="./assets/images/home/mail.png">
+                                        <img src="./assets/images/home/mail.png" alt="mail">
                                     </p>
                                 </div>
                             </div>

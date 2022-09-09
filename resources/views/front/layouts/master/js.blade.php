@@ -20,7 +20,7 @@
 <div class="modal fade" id="divAjaxLoader" role="dialog" aria-labelledby="divAjaxLoader" aria-hidden="true" style="display: none;">
     <div class="modal-dialog" role="document">
         <div class="modal-body ajax-loader-modal">
-            <img id="ajax-loader" src="{{ asset('assets/content/') }}/dam/web/common/loading.gif" />
+            <img id="ajax-loader" src="{{ asset('assets/content/') }}/dam/web/common/loading.gif" alt="loading"/>
         </div>
     </div>
 </div>
