@@ -138,7 +138,7 @@
                                                                 </a>
                                                             </li>
                                                             <li class="" title="Social Media Marketing">
-                                                                <a href="social-media-marketing" title="Social Media Marketing" class="" target="_self">
+                                                                <a href="social-media" title="Social Media Marketing" class="" target="_self">
                                                                     Social Media Marketing<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                                 </a>
                                                             </li>
