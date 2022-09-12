@@ -4256,12 +4256,12 @@ body .circle {
     }
 
     body.index #banner-carousel h1.h2-heading strong {
-        font-size: 6vw;
+        font-size: 36px;
         line-height: 1.4;
     }
 
     body.index #banner-carousel h3 {
-        font-size: 3.8vw;
+        font-size: 20px;
         line-height: 1.7;
         max-width: 101%;
         margin-bottom: 5.6vw;
@@ -6479,6 +6479,18 @@ body .circle {
 }
 
 @media(max-width:991px) {
+    #hero_slider {
+        padding-top: 250px;
+        background-color: transparent;
+    }
+
+    .slider-overlay-black {
+        height: 100vh !important;
+        top: -60px !important;
+    }
+
+
+
     ul.nav.navbar-nav.navbar-right.top-nav {
         display: none;
     }
@@ -6502,6 +6514,10 @@ body .circle {
         max-width: 80%;
         width: 100%;
     }
+
+    #hero_slider{
+        padding-top: 140px;
+    }
 }
 
 @media(max-width:480px) {
@@ -6518,4 +6534,16 @@ body .circle {
         height: 10px;
         right: -20px;
     }
+
+    #hero_slider {
+        padding-top: 150px;
+        background-color: transparent;
+    }
+
+    .slider-overlay-black {
+        height: 100vh !important;
+        top: -150px !important;
+    }
+
+
 }
