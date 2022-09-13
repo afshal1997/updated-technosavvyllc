@@ -1240,7 +1240,11 @@
 			</div>
 			<div class="modal-body">
 				<div class="top-modal-content">
+<<<<<<< HEAD
 					<img src="assets/images/digital/port3.jpg" alt="port3.jpg">
+=======
+					<img src="assets/images/digital/port3.jpg" alt="port3">
+>>>>>>> b0b57a4037af5a45b81b0450339223389b458b11
 				</div>
 				<div class="bottom-modal-content">
 					<div class="inner-model-bottom row">
@@ -1271,12 +1275,12 @@
 			</div>
 			<div class="modal-body">
 				<div class="top-modal-content">
-					<img src="assets/images/digital/port2.jpg">
+					<img src="assets/images/digital/port2.jpg" alt="port2">
 				</div>
 				<div class="bottom-modal-content">
 					<div class="inner-model-bottom row">
 						<div class="col-lg-3 col-xs-12">
-							<img src="assets/images/digital/port2-logo.png" />
+							<img src="assets/images/digital/port2-logo.png" alt="port2-logo"/>
 						</div>
 						<div class="col-lg-9 col-xs-12">
 							<h4>Greenfield Services Inc</h4>
