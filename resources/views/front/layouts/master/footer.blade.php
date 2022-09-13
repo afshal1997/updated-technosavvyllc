@@ -48,7 +48,7 @@
                             <li class="with-ico">
                                 <a href="tel:+18885643297">
                                     <i class="fa fa-phone"></i>
-                                    <span>tel:+18885643297</span>
+                                    <span>tel: +1 (888) 564-3297</span>
                                 </a>
                             </li>
                             <li class="with-ico">
@@ -57,9 +57,9 @@
                                     <span>info@technosavvyllc.com</span></a>
                             </li>
                             <li class="with-ico">
-                                <a rel="nofollow" href="#">
+                                <a rel="nofollow" target="_blank" href="https://goo.gl/maps/fA56sA322QAPn7wx5">
                                     <i class="fa fa-map-marker"></i>
-                                    <span>309 Fellowship Road, East Gate Center, Suite 200, Mt Laurel Township, NJ 08054</span>
+                                    <span>30 N Gould St Ste R Sheridan, WY 82801</span>
                                 </a>
                             </li>
                         </ul>

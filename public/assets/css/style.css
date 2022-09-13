@@ -2604,13 +2604,13 @@ body:not(.index) div.height-100vh:not(#footer_bot) {
 }
 
 .modal-content {
-    background-image: url(./../images/popup-bg.jpg);
+    background-image: url('../../assets/images/home/banner.jpeg');
     border-radius: 0;
     color: #fff;
     padding-left: 30px;
     padding-right: 30px;
     font-family: Montserrat;
-    background-position: right center;
+    background-position: left center;
     border: 0;
 }
 
@@ -3995,7 +3995,7 @@ body.index .associate-with-img {
 }
 
 body.index .associate-with-img img {
-    height: 3.03vw;
+    height: 2vw;
 }
 
 body.index .home_promo_banner {
@@ -6551,4 +6551,11 @@ body .circle {
     }
 
 
+}
+
+.modalBtn{
+    margin: auto !important;
+    margin-bottom: 40px !important;
+    display: block !important;
+    width: fit-content !important;
 }

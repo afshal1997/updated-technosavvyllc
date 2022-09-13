@@ -40,11 +40,10 @@
                         <textarea class="form-control message" id="message-text" name="message" placeholder="Message*"></textarea>
                     </div>
             </div>
-            <div class="modal-footer">
-                <button type="submit" id="submitForm" class="btn btn-primary btn btn-shutter-more text-uppercase fontweight600">Submit
-                    Now
-                </button>
-            </div>
+
+            <button type="submit" id="submitForm" class="btn btn-primary btn btn-shutter-more text-uppercase fontweight600 modalBtn">
+                Submit Now
+            </button>
             </form>
         </div>
     </div>
@@ -69,7 +68,7 @@
                                         <a href="tel:+18885643297" title="+1 (888) 564-3297">+1 (888) 564-3297</a>
                                     </li>
                                     <li>
-                                        <img src="./assets/images/home/enveloe.png" alt="enveloe"/>
+                                        <img src="./assets/images/home/enveloe.png" alt="enveloe" />
                                         <a href="mailto:info@technosavvyllc.com" title="info@technosavvyllc.com">info@technosavvyllc.com</a>
                                     </li>
                                     <li class="social-head"><a href="https://www.facebook.com/TechnoSavvyllc"><i class="fa fa-facebook"></i></a></li>
@@ -113,7 +112,7 @@
                                                         </a>
                                                     </li>
                                                     <li class="haveSubmenu" title="Our Services">
-                                                        <a rel="nofollow" href="#" title="Our Services"  class="" target="_self">
+                                                        <a rel="nofollow" href="#" title="Our Services" class="" target="_self">
                                                             Our Services<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                         </a>
                                                         <ul class="list-submenu">
@@ -174,7 +173,7 @@
                                                         </a>
                                                     </li>
                                                     <li class="" title="Contact">
-                                                        <a rel="nofollow" href="#" title="Contact" class="contct-btn">
+                                                        <a rel="nofollow" href="javascript:void(0)" title="Contact" class="contct-btn">
                                                             Contact<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                         </a>
                                                     </li>

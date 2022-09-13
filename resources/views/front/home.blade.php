@@ -18,6 +18,7 @@
                                     <h3>
                                         Dignify & digitalize the countenance of your inestimable business by perpetuating its digital trail, engraving its achievements, and augmenting your ROI by choosing the comprehensive Government affiliated solution.
                                     </h3>
+                                    <a class="hero-btn enterprise" href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal">Get a Quote</a>
                                 </div>
                             </div>
                         </div>
@@ -74,8 +75,8 @@
             <div class="row">
                 <div class="content home-second-heading-top">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-div" data-aos="">
-                        <img src="./assets/images/home/story-img.png"  alt="story-img" class="hidden-xs">
-                        <img src="./assets/images/home/story-img1.png" alt="story-img"  class="visible-xs">
+                        <img src="./assets/images/home/story-img.png" alt="story-img" class="hidden-xs">
+                        <img src="./assets/images/home/story-img1.png" alt="story-img" class="visible-xs">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right_col_pad cont-div" data-aos="">
                         <h2>Our Story</h2>
@@ -112,8 +113,8 @@
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-div" data-aos="">
-                        <img src="./assets/images/home/digital-img.png"  alt="digital-img" class="hidden-xs">
-                        <img src="./assets/images/home/digital-img1.png" alt="digital-img"  class="visible-xs">
+                        <img src="./assets/images/home/digital-img.png" alt="digital-img" class="hidden-xs">
+                        <img src="./assets/images/home/digital-img1.png" alt="digital-img" class="visible-xs">
                     </div>
                 </div>
             </div>
@@ -126,8 +127,8 @@
             <div class="row">
                 <div class="content home-second-heading-top">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image-div" data-aos="">
-                        <img src="./assets/images/home/creative-img.png"  alt="creative-img" class="hidden-xs">
-                        <img src="./assets/images/home/creative-img1.png" alt="creative-img"  class="visible-xs">
+                        <img src="./assets/images/home/creative-img.png" alt="creative-img" class="hidden-xs">
+                        <img src="./assets/images/home/creative-img1.png" alt="creative-img" class="visible-xs">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cont-div" data-aos="">
                         <h2>Creative Services</h2>
@@ -167,8 +168,8 @@
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 aos-init aos-animate image-div" data-aos="">
-                        <img src="./assets/images/home/development-img.png"  alt="development-img" class="hidden-xs">
-                        <img src="./assets/images/home/development-img1.png" alt="development-img"  class="visible-xs">
+                        <img src="./assets/images/home/development-img.png" alt="development-img" class="hidden-xs">
+                        <img src="./assets/images/home/development-img1.png" alt="development-img" class="visible-xs">
                     </div>
                 </div>
             </div>
