@@ -1240,7 +1240,7 @@
 			</div>
 			<div class="modal-body">
 				<div class="top-modal-content">
-					<img src="assets/images/digital/port3.jpg">
+					<img src="assets/images/digital/port3.jpg" alt="port3.jpg">
 				</div>
 				<div class="bottom-modal-content">
 					<div class="inner-model-bottom row">

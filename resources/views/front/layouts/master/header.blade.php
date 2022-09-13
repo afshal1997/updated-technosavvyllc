@@ -113,7 +113,7 @@
                                                         </a>
                                                     </li>
                                                     <li class="haveSubmenu" title="Our Services">
-                                                        <a href="javascript:void(0)" title="Our Services" class="" target="_self">
+                                                        <a rel="nofollow" href="#" title="Our Services"  class="" target="_self">
                                                             Our Services<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                         </a>
                                                         <ul class="list-submenu">
@@ -174,7 +174,7 @@
                                                         </a>
                                                     </li>
                                                     <li class="" title="Contact">
-                                                        <a href="javascript:void(0)" title="Contact" class="contct-btn">
+                                                        <a rel="nofollow" href="#" title="Contact" class="contct-btn">
                                                             Contact<span class="un-line hidden-sm hidden-xs hidden-tab"></span>
                                                         </a>
                                                     </li>

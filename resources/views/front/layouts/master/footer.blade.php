@@ -57,7 +57,7 @@
                                     <span>info@technosavvyllc.com</span></a>
                             </li>
                             <li class="with-ico">
-                                <a href="javascript:void(0)">
+                                <a rel="nofollow" href="#">
                                     <i class="fa fa-map-marker"></i>
                                     <span>309 Fellowship Road, East Gate Center, Suite 200, Mt Laurel Township, NJ 08054</span>
                                 </a>
@@ -103,7 +103,7 @@
         </article>
 
     </footer>
-    <a href="javascript:void(0)" class="scroll-up">
+    <a rel="nofollow" href="#" class="scroll-up">
         <img src="{{ asset('assets/content/') }}/dam/web/en/global-resource/background-image/arrow_up.png" alt="Arrow up" class="img-responsive" />
     </a>
 </div>
@@ -114,47 +114,47 @@
         <nav class="sticky-left-nav top-menu">
             <ul class="stick-left-nav-ul">
                 <li class="nav-active">
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Home</span>
                     </a>
                 </li>
                 <li class="">
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Our Story</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Digital Marketing</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Creative Services</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Development Solutions</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Enterprise Solutions</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Our Portfolio</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Get in Touch</span>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)">
+                    <a rel="nofollow" href="#">
                         <span>Footer</span>
                     </a>
                 </li>
