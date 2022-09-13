@@ -3989,6 +3989,11 @@ body.index .associate-with-img.slick-slide {
     height: 6.061vw;
 }
 
+body.index .associate-with-img {
+    margin: 0 10px;
+    text-align: center;
+}
+
 body.index .associate-with-img img {
     height: 3.03vw;
 }
@@ -6515,7 +6520,7 @@ body .circle {
         width: 100%;
     }
 
-    #hero_slider{
+    #hero_slider {
         padding-top: 140px;
     }
 }

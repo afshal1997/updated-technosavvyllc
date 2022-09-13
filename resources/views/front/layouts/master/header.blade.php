@@ -66,7 +66,7 @@
                                 <ul class="nav navbar-nav navbar-right top-nav">
                                     <li>
                                         <img src="./assets/images/home/ph.png" alt="ph" />
-                                        <a href="tel:+1 (929) 209-0208" title="+1 (929) 209-0208">+1 (929) 209-0208</a>
+                                        <a href="tel:+18885643297" title="+1 (888) 564-3297">+1 (888) 564-3297</a>
                                     </li>
                                     <li>
                                         <img src="./assets/images/home/enveloe.png" alt="enveloe"/>

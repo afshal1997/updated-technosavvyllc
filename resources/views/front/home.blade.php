@@ -19,9 +19,6 @@
                                         Dignify & digitalize the countenance of your inestimable business by perpetuating its digital trail, engraving its achievements, and augmenting your ROI by choosing the comprehensive Government affiliated solution.
                                     </h3>
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 with-sam-logo" data-aos="fade-up">
-                                    <img src="./assets/images/home/sam-img.png" alt="sam-img">
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -39,16 +36,31 @@
                     </div>
                     <div class="col-lg-8 associate-with-slides">
                         <div class="associate-with-img">
-                            <img src="./assets/images/home/bing.png" alt="bing">
+                            <img src="./assets/images/home/logo-1.png" alt="bing">
                         </div>
                         <div class="associate-with-img">
-                            <img src="./assets/images/home/goodfirm.png" alt="goodfirm">
+                            <img src="./assets/images/home/logo-2.png" alt="goodfirm">
                         </div>
                         <div class="associate-with-img">
-                            <img src="./assets/images/home/google-partner.png" alt="google-partner">
+                            <img src="./assets/images/home/logo-3.png" alt="google-partner">
                         </div>
                         <div class="associate-with-img">
-                            <img src="./assets/images/home/clutch.png" alt="clutch">
+                            <img src="./assets/images/home/logo-4.png" alt="clutch">
+                        </div>
+                        <div class="associate-with-img">
+                            <img src="./assets/images/home/logo-5.png" alt="clutch">
+                        </div>
+                        <div class="associate-with-img">
+                            <img src="./assets/images/home/logo-6.png" alt="clutch">
+                        </div>
+                        <div class="associate-with-img">
+                            <img src="./assets/images/home/logo-7.png" alt="clutch">
+                        </div>
+                        <div class="associate-with-img">
+                            <img src="./assets/images/home/logo-8.png" alt="clutch">
+                        </div>
+                        <div class="associate-with-img">
+                            <img src="./assets/images/home/logo-9.png" alt="clutch">
                         </div>
                     </div>
                 </div>

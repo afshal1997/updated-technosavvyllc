@@ -46,9 +46,9 @@
                         <h3 class="ftr-head mt-sm-20">Contact Us</h3>
                         <ul class="list-unstyled footer-txt">
                             <li class="with-ico">
-                                <a href="tel:+1 (929) 209-0208">
+                                <a href="tel:+18885643297">
                                     <i class="fa fa-phone"></i>
-                                    <span>+1 (929) 209-0208</span>
+                                    <span>tel:+18885643297</span>
                                 </a>
                             </li>
                             <li class="with-ico">

@@ -8,18 +8,33 @@
             <div class="col-lg-4 col-md-4 associate-with-title">
                 <h2>associated with </h2>
             </div>
-            <div class="col-lg-8 col-md-8 associate-with-slides">
+            <div class="col-lg-8 associate-with-slides">
                 <div class="associate-with-img">
-                    <img src="./assets/images/home/bing.png" alt="assets/images/home/bing" />
+                    <img src="./assets/images/home/logo-1.png" alt="bing">
                 </div>
                 <div class="associate-with-img">
-                    <img src="./assets/images/home/goodfirm.png" alt="assets/images/home/goodfirm" />
+                    <img src="./assets/images/home/logo-2.png" alt="goodfirm">
                 </div>
                 <div class="associate-with-img">
-                    <img src="./assets/images/home/google-partner.png" alt="images/home/google-partner" />
+                    <img src="./assets/images/home/logo-3.png" alt="google-partner">
                 </div>
                 <div class="associate-with-img">
-                    <img src="./assets/images/home/clutch.png" alt="assets/images/home/clutch" />
+                    <img src="./assets/images/home/logo-4.png" alt="clutch">
+                </div>
+                <div class="associate-with-img">
+                    <img src="./assets/images/home/logo-5.png" alt="clutch">
+                </div>
+                <div class="associate-with-img">
+                    <img src="./assets/images/home/logo-6.png" alt="clutch">
+                </div>
+                <div class="associate-with-img">
+                    <img src="./assets/images/home/logo-7.png" alt="clutch">
+                </div>
+                <div class="associate-with-img">
+                    <img src="./assets/images/home/logo-8.png" alt="clutch">
+                </div>
+                <div class="associate-with-img">
+                    <img src="./assets/images/home/logo-9.png" alt="clutch">
                 </div>
             </div>
         </div>
