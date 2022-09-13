@@ -218,7 +218,7 @@
                                 <p>Digital Marketing</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port2.jpg">
+                        <img src="./assets/images/home/port2.jpg" alt="port2">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 first_col_inner" data-aos="">
@@ -229,7 +229,7 @@
                                 <p>App Development</p>
                             </div>
                         </span>
-                        <img src="./assets/images/home/port3.jpg">
+                        <img src="./assets/images/home/port3.jpg" alt="port3">
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-4 third_col_inner" data-aos="">
